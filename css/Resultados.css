@@ -1,0 +1,121 @@
+*{
+	font-family: 'Spartan', sans-serif;
+	color: #fff
+}
+a{
+	text-decoration: none;
+}
+body {
+  background: 
+  linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, black 25%, transparent 25%),
+  linear-gradient(45deg, black 25%, transparent 25%);	
+  background-size: 2em 2em;
+  background-color: #232323;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	margin: -10px;
+	height: 100vh;
+}
+
+.header, .main, .footer{
+	padding: 20px;
+}
+
+.header{
+	background: #153569;
+	display: flex;
+	justify-content: space-evenly;
+	z-index: 100;
+
+}
+
+
+.nav{
+	display: flex;
+	top: -24px;
+	position: absolute;	
+	margin-left: -10px;
+}
+
+.nav-list__item{
+	display: inline-block;
+	padding: 20px;
+	}
+
+
+.main{
+	flex-basis: 200px;
+	flex-grow: 2;
+	justify-content: center;
+	margin: 20px auto;
+	
+}
+
+.table{
+	border: 5px solid #fff;
+	width: 100%;
+	background-color: ; 
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+tr:first-child{
+	background-color: #153569 ;
+}
+
+
+tr{
+	text-align: center;
+	padding: 10px;
+
+}
+
+tr:nth-child(2), tr:nth-child(3), tr:nth-child(5){
+	background-color: #1bd115;
+}
+
+tr:nth-child(23), tr:nth-child(24), tr:nth-child(25){
+	background-color: #de2a23;
+}
+
+
+
+td{
+	width: 100px;
+	height: 30px;
+	border-bottom: 1px solid #fff;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	flex-basis: 20px;
+	margin-top: 30px;
+}
+
+.footer-icons{
+	text-align: center;
+	margin-top: -10px;
+}
+
+.footer-icons i{
+	padding: 0 20px;
+	font-size: 20px;
+}
